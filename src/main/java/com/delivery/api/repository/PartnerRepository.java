@@ -1,0 +1,8 @@
+package com.delivery.api.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.delivery.api.model.Partner;
+
+public interface PartnerRepository extends JpaRepository<Partner, String> {
+}
